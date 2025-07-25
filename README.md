@@ -24,7 +24,7 @@ cd turing-chatbot
 python -m venv .venv && source .venv/bin/activate   # or .venv\Scripts\activate
 pip install -r requirements.txt
 
-
+---
 
 2. Add keys
 Create .env:
@@ -34,7 +34,7 @@ WEAVIATE_URL=https://your-cluster.weaviate.network
 WEAVIATE_API_KEY=optional_key_for_sandbox
 SERPAPI_API_KEY=optional_web_search_key
 
-
+---
 
 3. Run
 bash
@@ -42,7 +42,7 @@ Copy
 streamlit run turing.py
 # Browse to http://localhost:8501
 
-
+---
 
 🧠 Architecture
 Text

@@ -19,4 +19,4 @@ streamlit run turing.py'''
 Create .env (never commit):
 GOOGLE_API_KEY=YOUR_GEMINI_KEY
 WEAVIATE_URL=https://edu-demo.weaviate.network
-WEAVIATE_API_KEY=optional'''
+WEAVIATE_API_KEY=optional

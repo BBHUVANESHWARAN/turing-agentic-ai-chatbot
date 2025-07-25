@@ -3,6 +3,14 @@
 > One command. Zero micromanagement.  
 > An open-source, memory-backed AI agent powered by **Google Gemini** that **plans, searches, codes, and remembers** so you don’t have to.
 
+
+🔑 Environment Variables
+Create .env (never commit):
+GOOGLE_API_KEY=YOUR_GEMINI_KEY
+WEAVIATE_URL=https://edu-demo.weaviate.network
+WEAVIATE_API_KEY=optional
+
+
 ## 🚀 Quick Start
 
 ```bash
@@ -14,9 +22,3 @@ echo "GOOGLE_API_KEY=YOUR_KEY" > .env
 streamlit run turing.py
 
 
-
-##🔑 Environment Variables
-Create .env (never commit):
-GOOGLE_API_KEY=YOUR_GEMINI_KEY
-WEAVIATE_URL=https://edu-demo.weaviate.network
-WEAVIATE_API_KEY=optional

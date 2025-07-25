@@ -44,7 +44,7 @@ git clone https://github.com/your-org/turing-chatbot.git
 cd turing-chatbot
 python -m venv .venv && source .venv/bin/activate   # or .venv\Scripts\activate
 pip install -r requirements.txt
-'''
+** block
 
 2. Add keys
 Create .env:

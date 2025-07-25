@@ -13,9 +13,10 @@ pip install -r requirements.txt
 echo "GOOGLE_API_KEY=YOUR_KEY" > .env
 streamlit run turing.py'''
 
+
+
 🔑 Environment Variables
 Create .env (never commit):
-'''bash
 GOOGLE_API_KEY=YOUR_GEMINI_KEY
 WEAVIATE_URL=https://edu-demo.weaviate.network
 WEAVIATE_API_KEY=optional'''

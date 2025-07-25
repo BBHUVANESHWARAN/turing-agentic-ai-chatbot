@@ -39,11 +39,14 @@ Turing is a lightweight, open-source demonstration of **Agentic AI**:
 ## 🚀 Quick Start
 
 ### 1. Clone & install
-```bash
+
 git clone https://github.com/your-org/turing-chatbot.git
 cd turing-chatbot
 python -m venv .venv && source .venv/bin/activate   # or .venv\Scripts\activate
 pip install -r requirements.txt
+
+
+
 2. Add keys
 Create .env:
 Copy

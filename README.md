@@ -40,15 +40,17 @@ Turing is a lightweight, open-source demonstration of **Agentic AI**:
 
 ### 1. Clone & install
 '''bash
+copy
 git clone https://github.com/your-org/turing-chatbot.git
 cd turing-chatbot
 python -m venv .venv && source .venv/bin/activate   # or .venv\Scripts\activate
 pip install -r requirements.txt
-** block
+
 
 2. Add keys
 Create .env:
-Copy
+bash
+copy
 GOOGLE_API_KEY=your_gemini_key
 WEAVIATE_URL=https://your-cluster.weaviate.network
 WEAVIATE_API_KEY=optional_key_for_sandbox
@@ -60,6 +62,8 @@ SERPAPI_API_KEY=optional_web_search_key
 bash
 Copy
 streamlit run turing.py
+
+
 # Browse to http://localhost:8501
 🧠 Architecture
 Text

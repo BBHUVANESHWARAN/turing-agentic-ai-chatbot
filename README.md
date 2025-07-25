@@ -1,6 +1,6 @@
 # 🤖 Turing Chatbot – Agentic AI Companion
 
-> **Your autonomous, memory-backed AI assistant powered by Google Gemini.**
+> **Your autonomous, memory-backed AI assistant using Google Gemini Api Key.**
 
 ---
 

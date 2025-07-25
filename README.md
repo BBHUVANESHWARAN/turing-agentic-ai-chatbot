@@ -1,17 +1,3 @@
-# 🤖 Turing Chatbot – Agentic AI Assistant
-
-> One command. Zero micromanagement.  
-> An open-source, memory-backed AI agent powered by **Google Gemini** that **plans, searches, codes, and remembers** so you don’t have to.
-
-
-
-
-
-
-2. README.md (copy-paste ready)
-────────────────────────────────────────
-markdown
-Copy
 # 🤖 Turing Chatbot – Agentic AI Companion
 
 > **Your autonomous, memory-backed AI assistant powered by Google Gemini.**
@@ -39,29 +25,22 @@ Turing is a lightweight, open-source demonstration of **Agentic AI**:
 ## 🚀 Quick Start
 
 ### 1. Clone & install
-'''bash
+```bash
 git clone https://github.com/your-org/turing-chatbot.git
 cd turing-chatbot
 python -m venv .venv && source .venv/bin/activate   # or .venv\Scripts\activate
 pip install -r requirements.txt
-
-
-
 2. Add keys
 Create .env:
-bash
+Copy
 GOOGLE_API_KEY=your_gemini_key
 WEAVIATE_URL=https://your-cluster.weaviate.network
 WEAVIATE_API_KEY=optional_key_for_sandbox
 SERPAPI_API_KEY=optional_web_search_key
-
-
-
-4. Run
+3. Run
 bash
+Copy
 streamlit run turing.py
-
-
 # Browse to http://localhost:8501
 🧠 Architecture
 Text

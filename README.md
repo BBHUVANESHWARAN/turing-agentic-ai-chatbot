@@ -13,8 +13,6 @@ Turing is a lightweight, open-source demonstration of **Agentic AI**:
 ---
 
 
----
-
 ## 🚀 Quick Start
 
 ### 1. Clone & install
@@ -26,7 +24,8 @@ pip install -r requirements.txt
 
 ---
 
-2. Add keys
+###2. Add keys
+'''bash
 Create .env:
 Copy
 GOOGLE_API_KEY=your_gemini_key
@@ -36,15 +35,15 @@ SERPAPI_API_KEY=optional_web_search_key
 
 ---
 
-3. Run
-bash
+###3. Run
+'''bash
 Copy
 streamlit run turing.py
 # Browse to http://localhost:8501
 
 ---
 
-🧠 Architecture
+###🧠 Architecture
 Text
 Copy
 ┌─────────────┐    ┌──────────────┐    ┌──────────────┐
